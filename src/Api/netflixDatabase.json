@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Lovely Runner",
+    "id": "lovely-runner",
+    "img_url": "http://localhost:5173/images/lr.webp",
+    "rating": "4.8",
+    "description": "Im Sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae.",
+    "cast": [
+      "Kim Hye Yoon",
+      "Byeon Woo Seok",
+      "Song Geon Hee"
+    ],
+    "genre": [
+      "Romantic Comedy",
+      "Fantasy"
+    ],
+    "watch_url": "https://www.viki.com/tv/40466c-lovely-runner"
+  },
+  {
+    "name": "Stranger Things",
+    "id": "stranger-things",
+    "img_url": "http://localhost:5173/images/st.jpg",
+    "rating": "3.7",
+    "description": "A group of young friends witness supernatural forces and secret government exploits.",
+    "cast": [
+      "Winona Ryder",
+      "David Harbour",
+      "Millie Bobby Brown"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  },
+  {
+    "name": "The Witcher",
+    "id": "the-witcher",
+    "img_url": "http://localhost:5173/images/tw.webp",
+    "rating": "4.2",
+    "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world.",
+    "cast": [
+      "Henry Cavill",
+      "Anya Chalotra",
+      "Freya Allan"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "watch_url": "https://www.netflix.com/title/80189685"
+  },
+  {
+    "name": "Money Heist",
+    "id": "money-heist",
+    "img_url": "http://localhost:5173/images/mh.jpg",
+    "rating": "4.3",
+    "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
+    "cast": [
+      "Úrsula Corberó",
+      "Álvaro Morte",
+      "Itziar Ituño"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "watch_url": "https://www.netflix.com/title/80192098"
+  },
+  {
+    "name": "The Crown",
+    "id": "the-crown",
+    "img_url": "http://localhost:5173/images/tc.webp",
+    "rating": "4.6",
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+    "cast": [
+      "Claire Foy",
+      "Olivia Colman",
+      "Imelda Staunton"
+    ],
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "watch_url": "https://www.netflix.com/title/80025678"
+  },
+  {
+    "name": "Squid Game",
+    "id": "squid-game",
+    "img_url": "http://localhost:5173/images/sg.webp",
+    "rating": "3.1",
+    "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+    "cast": [
+      "Lee Jung-jae",
+      "Park Hae-soo",
+      "Wi Ha-joon"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "watch_url": "https://www.netflix.com/title/81040344"
+  },
+  {
+    "name": "Queen of Tears",
+    "id": "queen-of-tears",
+    "img_url": "http://localhost:5173/images/qot.jpg",
+    "rating": "4.5",
+    "description": "A gripping tale of love, loss, and resilience set against the backdrop of a war-torn nation.",
+    "cast": [
+      "Kim Soo Hyun",
+      "Kim Ji Won"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "watch_url": "https://www.viki.com/tv/23456789c-queen-of-tears"
+  },
+  {
+    "id": 1,
+    "name": "The Crown",
+    "img_url": "images/Crown.jpg",
+    "rating": 4.5,
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+    "cast": [
+      "Olivia Colman",
+      "Tobias Menzies",
+      "Helena Bonham Carter"
+    ],
+    "genre": [
+      "Drama",
+      "History"
+    ],
+    "watch_url": "https://www.netflix.com/title/80025678"
+  },
+  {
+    "id": 2,
+    "name": "Stranger Things",
+    "img_url": "images/StrangerThings.jpg",
+    "rating": 4.8,
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "cast": [
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Winona Ryder"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Horror",
+      "Drama"
+    ],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  },
+  {
+    "id": 3,
+    "name": "The Queen's Gambit",
+    "img_url": "https://static1.squarespace.com/static/59618bea72af6554d01bdbb5/5ffb554d93bc6a5d87fd0f17/626750b927321e30ff25f2c7/1717184764190/QueensGambit_1x1_Main_RGB.jpg?format=1500w",
+    "rating": 4.7,
+    "description": "Orphaned at 9, prodigious chess prodigy Beth Harmon struggles with addiction in a quest to become the greatest chess player in the world.",
+    "cast": [
+      "Anya Taylor-Joy",
+      "Thomas Brodie-Sangster",
+      "Harry Melling"
+    ],
+    "genre": [
+      "Drama",
+      "Period Piece"
+    ],
+    "watch_url": "https://www.netflix.com/title/80234304"
+  },
+  {
+    "id": 4,
+    "name": "Money Heist",
+    "img_url": "https://resizing.flixster.com/ITt1FPrFePNR6FSqZrZK7BocG2U=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjEwMTMyOTMud2VicA==",
+    "rating": 4.6,
+    "description": "A criminal mastermind who goes by 'The Professor' has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain.",
+    "cast": [
+      "Úrsula Corberó",
+      "Álvaro Morte",
+      "Itziar Ituño"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "watch_url": "https://www.netflix.com/title/80192098"
+  },
+  {
+    "id": 5,
+    "name": "Bridgerton",
+    "img_url": "https://media.vanityfair.com/photos/666b31dba300234d6ae1c89a/3:2/w_1998,h_1332,c_limit/VF0624_BRIDGERTON_SEASON%204%20EXPLAINER.png",
+    "rating": 4.3,
+    "description": "The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society.",
+    "cast": [
+      "Phoebe Dynevor",
+      "Regé-Jean Page",
+      "Nicola Coughlan"
+    ],
+    "genre": [
+      "Romance",
+      "Drama",
+      "Period Piece"
+    ],
+    "watch_url": "https://www.netflix.com/title/80232363"
+  },
+  {
+    "id": 6,
+    "name": "Squid Game",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Squid+Game",
+    "rating": 4.9,
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+    "cast": [
+      "Lee Jung-jae",
+      "Park Hae-soo",
+      "Jung Ho-yeon"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Survival"
+    ],
+    "watch_url": "https://www.netflix.com/title/81040344"
+  },
+  {
+    "id": 7,
+    "name": "Lupin",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Lupin",
+    "rating": 4.4,
+    "description": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+    "cast": [
+      "Omar Sy",
+      "Ludivine Sagnier",
+      "Clotilde Hesme"
+    ],
+    "genre": [
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "watch_url": "https://www.netflix.com/title/81130674"
+  },
+  {
+    "id": 8,
+    "name": "The Witcher",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=The+Witcher",
+    "rating": 4.5,
+    "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where humans, elves, witchers, gnomes, and monsters battle to survive and thrive.",
+    "cast": [
+      "Henry Cavill",
+      "Freya Allan",
+      "Anya Chalotra"
+    ],
+    "genre": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "watch_url": "https://www.netflix.com/title/80189685"
+  },
+  {
+    "id": 9,
+    "name": "Ozark",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Ozark",
+    "rating": 4.6,
+    "description": "A financial advisor drags his family from Chicago to the Ozarks, where he must launder money to appease a drug boss.",
+    "cast": [
+      "Jason Bateman",
+      "Laura Linney",
+      "Julia Garner"
+    ],
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "watch_url": "https://www.netflix.com/title/80117552"
+  },
+  {
+    "id": 10,
+    "name": "Dark",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Dark",
+    "rating": 4.7,
+    "description": "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the double lives and fractured relationships among four families.",
+    "cast": [
+      "Louis Hofmann",
+      "Oliver Masucci",
+      "Jordis Triebel"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Thriller",
+      "Mystery"
+    ],
+    "watch_url": "https://www.netflix.com/title/80100172"
+  },
+  {
+    "id": 11,
+    "name": "Peaky Blinders",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Peaky+Blinders",
+    "rating": 4.7,
+    "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.",
+    "cast": [
+      "Cillian Murphy",
+      "Helen McCrory",
+      "Paul Anderson"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "watch_url": "https://www.netflix.com/title/80002479"
+  },
+  {
+    "id": 12,
+    "name": "Narcos",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Narcos",
+    "rating": 4.5,
+    "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
+    "cast": [
+      "Wagner Moura",
+      "Boyd Holbrook",
+      "Pedro Pascal"
+    ],
+    "genre": [
+      "Crime",
+      "Drama",
+      "Biographical"
+    ],
+    "watch_url": "https://www.netflix.com/title/80025172"
+  },
+  {
+    "id": 13,
+    "name": "Mindhunter",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Mindhunter",
+    "rating": 4.6,
+    "description": "In the late 1970s, two FBI agents expand criminal science by delving into the psychology of murder and getting uneasily close to real-life monsters.",
+    "cast": [
+      "Jonathan Groff",
+      "Holt McCallany",
+      "Anna Torv"
+    ],
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "watch_url": "https://www.netflix.com/title/80117522"
+  },
+  {
+    "id": 14,
+    "name": "The Umbrella Academy",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Umbrella+Academy",
+    "rating": 4.4,
+    "description": "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, and the threat of an impending apocalypse.",
+    "cast": [
+      "Elliot Page",
+      "Tom Hopper",
+      "David Castañeda"
+    ],
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "watch_url": "https://www.netflix.com/title/80186863"
+  },
+  {
+    "id": 15,
+    "name": "Sex Education",
+    "img_url": "https://placehold.co/300x450/000000/FFFFFF?text=Sex+Education",
+    "rating": 4.3,
+    "description": "A shy student who lives with his sex therapist mother teams up with a rebellious classmate to set up an underground sex therapy clinic at their school.",
+    "cast": [
+      "Asa Butterfield",
+      "Gillian Anderson",
+      "Ncuti Gatwa"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "watch_url": "https://www.netflix.com/title/80197526"
+  }
+]
