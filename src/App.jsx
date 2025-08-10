@@ -7,14 +7,16 @@ import EventAsProps from "./components/EventAsPropsComponent/EventAsProps";
 import UseStateComponent from "./components/HOOKS/UseStateComponent";
 import UseStateArrayComponent from "./components/HOOKS/UseStateArrayComponent";
 import LiftingState from "./components/HOOKS/LiftingStateComponent/LiftingState";
+import CountChallange from "./components/HOOKS/UseStateHookComponent/CountChallange";
 
 const App = () => {
   return (
     <>
+      <CountChallange />
       {/* <h1 className="text-4xl font-bold underline text-center mt-5 text-blue-500">
         Hello world!
       </h1> */}
-      <LiftingState />
+      {/* <LiftingState /> */}
       {/* <UseStateArrayComponent />
       <UseStateComponent />
       <EventHandler />
