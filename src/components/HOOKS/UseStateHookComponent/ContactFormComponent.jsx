@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 
-const LoginFormComponent = () => {
+const ContactFormComponent = () => {
   // @ State Variable
   const [inputFormData, setInputFormData] = useState({
     username: "",
     email: "",
-    password: "",
+    message: "",
   });
 
   // @ handle Change
@@ -28,7 +28,7 @@ const LoginFormComponent = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-blue-300">
       <h1 className="text-4xl font-bold text-center mt-5 text-blue-500 mb-5">
-        Login Form Component
+        Contact Us
       </h1>
       <form
         className="flex flex-col items-center justify-center gap-4 w-3/5 bg-gray-300 p-5 rounded-lg shadow-2xl"
@@ -72,16 +72,18 @@ const LoginFormComponent = () => {
         <div className="mb-4 w-full">
           <label
             className="block text-gray-700 text-lg font-bold mb-2"
-            htmlFor="password"
+            htmlFor="message"
           >
-            Password
+            Message
           </label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Please Enter Your Password"
-            value={inputFormData.password}
+          <textarea
+            rows={10}
+            cols={50}
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Please Enter Your Message"
+            value={inputFormData.message}
             onChange={handleChange}
             className="border-2 border-black-300 rounded-lg p-2 w-full"
           />
@@ -91,7 +93,7 @@ const LoginFormComponent = () => {
             type="submit"
             className="bg-blue-500 text-white p-3 rounded-lg text-xl"
           >
-            Login
+            Submit
           </button>
         </div>
       </form>
@@ -99,4 +101,4 @@ const LoginFormComponent = () => {
   );
 };
 
-export default LoginFormComponent;
+export default ContactFormComponent;

@@ -10,11 +10,17 @@ import LiftingState from "./components/HOOKS/LiftingStateComponent/LiftingState"
 import CountChallange from "./components/HOOKS/UseStateHookComponent/CountChallange";
 import RegistrationFormComponent from "./components/HOOKS/UseStateHookComponent/RegistrationFormComponent";
 import LoginFormComponent from "./components/HOOKS/UseStateHookComponent/LoginFormComponent";
+import ContactFormComponent from "./components/HOOKS/UseStateHookComponent/ContactFormComponent";
+import FetchPocamonData from "./components/HOOKS/UseEffectHookComponent/FetchPocamonData";
+import CurrentDateTimeWithUseEffect from "./components/HOOKS/UseEffectHookComponent/CurrentDateTimeWithUseEffect";
 
 const App = () => {
   return (
     <>
-      <LoginFormComponent />
+      {/* <FetchPocamonData /> */}
+      <CurrentDateTimeWithUseEffect />
+      {/* <ContactFormComponent /> */}
+      {/* <LoginFormComponent /> */}
       {/* <RegistrationFormComponent /> */}
       {/* <CountChallange /> */}
       {/* <h1 className="text-4xl font-bold underline text-center mt-5 text-blue-500">
