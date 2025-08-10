@@ -17,8 +17,8 @@ import CurrentDateTimeWithUseEffect from "./components/HOOKS/UseEffectHookCompon
 const App = () => {
   return (
     <>
-      {/* <FetchPocamonData /> */}
-      <CurrentDateTimeWithUseEffect />
+      <FetchPocamonData />
+      {/* <CurrentDateTimeWithUseEffect /> */}
       {/* <ContactFormComponent /> */}
       {/* <LoginFormComponent /> */}
       {/* <RegistrationFormComponent /> */}
