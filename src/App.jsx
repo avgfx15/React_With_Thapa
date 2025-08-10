@@ -8,11 +8,13 @@ import UseStateComponent from "./components/HOOKS/UseStateComponent";
 import UseStateArrayComponent from "./components/HOOKS/UseStateArrayComponent";
 import LiftingState from "./components/HOOKS/LiftingStateComponent/LiftingState";
 import CountChallange from "./components/HOOKS/UseStateHookComponent/CountChallange";
+import RegistrationFormComponent from "./components/HOOKS/UseStateHookComponent/RegistrationFormComponent";
 
 const App = () => {
   return (
     <>
-      <CountChallange />
+      <RegistrationFormComponent />
+      {/* <CountChallange /> */}
       {/* <h1 className="text-4xl font-bold underline text-center mt-5 text-blue-500">
         Hello world!
       </h1> */}
