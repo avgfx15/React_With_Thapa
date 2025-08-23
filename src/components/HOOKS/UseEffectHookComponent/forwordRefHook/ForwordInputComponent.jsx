@@ -1,4 +1,3 @@
-import React from 'react';
 import { useId } from 'react';
 
 const ForwordInputComponent = ({ type, label, ref }) => {

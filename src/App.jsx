@@ -15,11 +15,16 @@ import FetchPocamonData from './components/HOOKS/UseEffectHookComponent/FetchPoc
 import CurrentDateTimeWithUseEffect from './components/HOOKS/UseEffectHookComponent/CurrentDateTimeWithUseEffect';
 import UseRefHookComponent from './components/HOOKS/UseRef/UseRefHookComponent';
 import ForwordRefComponent from './components/HOOKS/UseEffectHookComponent/forwordRefHook/ForwordRefComponent';
+import HomeComponent from './Context_API/HomeComponent';
+import { BioProvider } from './Context_API/BioContextProvider';
 
 const App = () => {
   return (
     <>
-      <ForwordRefComponent />
+      <BioProvider>
+        <HomeComponent />
+      </BioProvider>
+      {/* <ForwordRefComponent /> */}
       {/* <UseRefHookComponent /> */}
       {/* <FetchPocamonData /> */}
       {/* <CurrentDateTimeWithUseEffect /> */}
