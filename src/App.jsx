@@ -17,13 +17,15 @@ import UseRefHookComponent from './components/HOOKS/UseRef/UseRefHookComponent';
 import ForwordRefComponent from './components/HOOKS/UseEffectHookComponent/forwordRefHook/ForwordRefComponent';
 import HomeComponent from './Context_API/HomeComponent';
 import { BioProvider } from './Context_API/BioContextProvider';
+import UseReducerComponent from './components/HOOKS/UseReducerHook/UseReducerComponent';
 
 const App = () => {
   return (
     <>
-      <BioProvider>
+      <UseReducerComponent />
+      {/* <BioProvider>
         <HomeComponent />
-      </BioProvider>
+      </BioProvider> */}
       {/* <ForwordRefComponent /> */}
       {/* <UseRefHookComponent /> */}
       {/* <FetchPocamonData /> */}
