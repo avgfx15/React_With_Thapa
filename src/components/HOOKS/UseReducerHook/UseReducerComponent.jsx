@@ -2,7 +2,10 @@ import { useReducer } from 'react';
 import reducerFunction from './reducerFunction';
 
 const UseReducerComponent = () => {
-  const [count, dispatch] = useReducer(reducerFunction, 0);
+  const initialState = {
+    count: 0,
+  };
+  const [countState, dispatch] = useReducer(reducerFunction, initialState);
 
   return (
     <div className='text-center mt-10 flex flex-col justify-center items-center h-screen'>
@@ -11,7 +14,7 @@ const UseReducerComponent = () => {
       </h1>
       <div>
         <h2 className='text-2xl font-bold'>Counter</h2>
-        <h3 className='text-xl font-semibold'>{count}</h3>
+        <h3 className='text-xl font-semibold'>{countState.count}</h3>
         <button
           className='bg-blue-500 text-white px-4 py-2 m-2 rounded'
           onClick={() => dispatch({ type: 'INCREMENT' })}
