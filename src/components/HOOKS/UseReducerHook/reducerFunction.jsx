@@ -3,16 +3,16 @@ const reducerFunction = (state, action) => {
     case 'INCREMENT':
       if (state.count >= 10) {
         alert('You can not increase more than 10');
-        return { count: state.count };
+        return { ...state, count: state.count };
       }
-      return { count: state.count + 1 };
+      return { ...state, count: state.count + 1 };
 
     case 'DECREMENT':
       if (state.count <= 0) {
         alert('You can not decrease more than 0');
-        return { count: state.count };
+        return { ...state, count: state.count };
       }
-      return { count: state.count - 1 };
+      return { ...state, count: state.count - 1 };
 
     case 'RESET':
       return { count: 0 };

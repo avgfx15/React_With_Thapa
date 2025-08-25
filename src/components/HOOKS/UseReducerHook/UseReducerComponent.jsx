@@ -4,6 +4,8 @@ import reducerFunction from './reducerFunction';
 const UseReducerComponent = () => {
   const initialState = {
     count: 0,
+    name: 'Ajay',
+    age: 24,
   };
   const [countState, dispatch] = useReducer(reducerFunction, initialState);
 
